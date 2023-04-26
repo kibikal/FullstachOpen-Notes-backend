@@ -1,0 +1,7 @@
+POST http://localhost:3001/api/notes/
+Content-Type: application/json
+
+{
+    "content": "This is a test for the backend integration with the database. It's been fun so far.",
+    "important":true
+}
